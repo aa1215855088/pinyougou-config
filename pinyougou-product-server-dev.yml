@@ -1,3 +1,5 @@
+server:
+  port: 8001
 
 spring:
   ##数据库连接信息
