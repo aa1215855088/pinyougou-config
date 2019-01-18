@@ -5,9 +5,9 @@ server:
 spring:
   rabbitmq:
     host: localhost
-    port：5672
+    port: 5672
     username: guest
-    password: guest
+    password: guset
   zipkin:
     rabbitmq:
       queue: zipkin
