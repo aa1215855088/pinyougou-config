@@ -6,8 +6,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: 123456
-    password: 123456
+    username: admin
+    password: admin
   zipkin:
     rabbitmq:
       queue: zipkin
