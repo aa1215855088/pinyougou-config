@@ -3,11 +3,12 @@ server:
 
 
 spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  zipkin:
+    rabbitmq:
+      queue: zipkin
+  sleuth:
+    sampler:
+      percentage: 1.0
   ##数据库连接信息
   datasource:
     url: jdbc:mysql://localhost:3306/pinyougoudb
