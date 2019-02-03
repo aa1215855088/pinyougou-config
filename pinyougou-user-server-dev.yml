@@ -42,16 +42,7 @@ spring:
       poolPreparedStatements: true
       maxPoolPreparedStatementPerConnectionSize: 20
       
-security:
-  oauth2:
-    client:
-      clientId: pinyougou-client-user
-      clientSecret: pinyougouClientSecret
-      access-token-uri: http://localhost:8888/user/oauth/token
-      user-authorization-uri: http://localhost:8888/user/oauth/authorize
-    resource:
-      id: pinyougou-resource-user
-      filter-order: 3
+
 
 mybatis-plus:
   # 如果是放在src/main/java目录下 classpath:/com/yourpackage/*/mapper/*Mapper.xml
