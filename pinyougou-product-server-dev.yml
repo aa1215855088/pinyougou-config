@@ -1,9 +1,3 @@
-server:
-  port: 8001
-  servlet:
-    session:
-      cookie:
-        name: UISESSIONMEMBER
 
 spring:
   rabbitmq:
